@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>port2</title>
+</head>
+<script>
+    
+    function fun()
+    {
+    
+        document.getElementById("img2").src="IMG-20201202-WA0018.jpg"
+
+    }
+    function funout()
+    {
+    
+        document.getElementById("img2").src="5_6300607377011901135.jpg";
+
+    }
+</script>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        background-color: white;
+        
+    }
+    .con{
+        display: flex;
+    }
+    .box{
+        /* border: 3px solid black; */
+    }
+    .box img{
+        height: 100vh;
+        width: 100%;
+    }
+    #one{
+        width: 150%;
+    }
+    #two{
+        /* border: 2px solid red; */
+        padding-left: 20px;
+        /* background:linear-gradient(rgb(228, 88, 23),rgb(15, 50, 116)); */
+        background: linear-gradient(rgb(22, 129, 172),white);
+        
+
+    }
+    #two p{
+        margin-top: 50px;
+        padding-left:30px ;
+        /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs; */
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 20px;
+        /* font-weight: bold; */
+    }
+    h2{
+        font-style: oblique;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #hello{
+        font-size: 60px;
+        text-transform: uppercase;
+        /* font-family: fantasy; */
+        font-family: 'Libre Baskerville', serif;
+        color: rgb(235, 155, 8);
+        padding-top: 70px;
+        padding-left: 20px;
+    }
+    small{
+        font-family: monospace;
+        color: black;
+        font-size: 30px;
+    }
+    h1{
+        text-transform: uppercase;
+        font-family:sans-serif;
+        letter-spacing: 1px;
+        padding-left: 20px;
+        margin-top: 30px;
+        color: rgb(29, 88, 199);
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    h4{
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-left: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    button{
+        height: 60px;
+        width: 200px;
+        border-radius: 20px;
+        outline: none;
+        font-size: 30px;
+        background-color: rgba(255, 166, 0, 0.822);
+        color: white;
+        /* font-family: */
+        text-transform: uppercase;
+        margin: 20px;
+    }
+    .item4{
+        margin: 38px;
+        padding-left:290px ;
+    }
+    .item4 img{
+        height: 80px;
+        width: 80px;
+
+    }
+    .item1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .item1 ul{
+        display: flex;
+        list-style: none;
+}
+footer{
+    margin-top: -26px;
+    padding-left: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.item1 li a{
+    padding: 30px;
+    /* text-decoration: none; */
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    color: black;
+}
+.item1 li a:hover{
+
+    text-decoration: none;
+    
+}
+@media(max-width:700px ){
+    .con{
+        display: flex;
+        flex-direction: column;
+    }
+    #two{
+        width: 150%;
+    }
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<body>
+    <div class="con">
+        <div class="box" id="one">
+            <img onmouseover="fun()" onmouseout="funout()" src="5_6300607377011901135.jpg" alt="" id="img2" >
+        </div>
+        <div class="box" id="two">
+            <div class="item1">
+            <h2>PORTFOLIO</h2>
+            <ul>
+                <li><a href="skill.html" >Skills</a></li>
+                <li><a href="">Works</a></li>
+                <li><a href="signup.html" >contact</a></li>
+            </ul>
+        </div>
+            <h3 id="hello">hello <small>I'm</small></h3>
+            <h1>kamal acharya</h1>
+            <h4>i am a frontend web DEVELOPER</h4>
+            <p>
+                Hey!I am Kamal Acharya ,i am 20 year old.I am from Kharagpur West Bengal.  I am doing BTECH degree from Trident Academy of Technology,BBSR .I am very hardworking individual,with broadskills and experience of social media and leading projects.    Basically I build websites pages as I am a <b>Frontend Engineeer</b>
+                I use many tools and software for this.and basically it need very creative ideas  to build a webiste..!!
+            </p>
+            <button type="button">join me</button>
+            <div class="item4">
+            <img src="download-removebg-preview (1).png" alt="">
+            <img src="download-removebg-preview (2).png" alt="">
+            <img src="download__1_-removebg-preview (2).png" alt="">
+            </div>
+            <footer> copyright &copy;kadev3158.co.in</footer>
+        </div>
+        
+    </div>
+    
+</body>
+
+</html>
